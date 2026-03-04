@@ -17,6 +17,7 @@ input {
     border: none;
     background: none;
     font-family: Involve, sans-serif;
+    outline: none;
 }
 
 button {
