@@ -139,6 +139,7 @@
 }
 
 .modal__agree{
+    margin-top:8px;
     display:flex;
     gap:12px;
     align-items:flex-start;
@@ -147,7 +148,6 @@
     line-height: 140%;
     color: var(--color-main-white);
 }
-.modal__agree input{ margin-top:8px; }
 
 .modal__submit{
     margin-top:16px;
@@ -206,11 +206,10 @@
     }
 
     .modal__agree{
+        margin-top: 12px;
         gap:8px;
         font-size: 12px;
     }
-
-    .modal__agree input{ margin-top:12px; }
 
     .modal__submit{
         margin-top:12px;
