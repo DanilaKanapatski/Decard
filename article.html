@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="article.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css">
+    <title>Decard</title>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header-wrapper">
+            <img src="assets/images/header-logo.svg" alt="">
+            <div class="header-separator"></div>
+            <a href="mailto:info@decardstuido.ru">info@decardstuido.ru</a>
+            <a href="tel:8(812)240-89-49">8 (812) 240 - 89 - 49</a></div>
+        <nav>
+            <ul class="header-list">
+                <li><a href="">ПОРТФОЛИО</a></li>
+                <li><a href="">КОНТАКТЫ</a></li>
+                <li><a href="">БЛОГ</a></li>
+            </ul>
+        </nav>
+        <button class="header-btn" type="button" data-modal-open="contact">связаться с нами</button>
+
+        <div class="modal" id="contact-modal" aria-hidden="true">
+            <div class="modal__overlay" data-modal-close tabindex="-1"></div>
+
+            <div class="modal__dialog" role="dialog" aria-modal="true" aria-labelledby="contact-modal-title">
+                <button class="modal__close" type="button" aria-label="Закрыть" data-modal-close>
+                    <svg width="35" height="35" viewBox="0 0 35 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M33.7492 0.750013L0.75084 33.7483M0.750841 0.750012L33.7492 33.7483" stroke="white"
+                              stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+
+                <div class="modal__content">
+                    <div class="modal__kicker">готовы обсудить задачу?</div>
+                    <h2 class="modal__title" id="contact-modal-title">
+                        Оставьте заявку —<br/>
+                        мы подберём решение<br/>
+                        и предложим оптимальную стоимость.
+                    </h2>
+
+                    <form class="modal__form">
+                        <label class="modal__field">
+                            <input type="text" name="name" placeholder="Ваше имя" autocomplete="name"/>
+                        </label>
+
+                        <label class="modal__field">
+                            <input type="tel" name="phone" placeholder="Ваш телефон" autocomplete="tel"/>
+                        </label>
+
+                        <label class="modal__agree">
+                            <input type="checkbox"/>
+                            <span>
+            Я даю согласие на обработку персональных данных, файлов cookie, принимаю условия Соглашения об обработке персональных данных пользователей и разрешаю передачу данных сервису «Яндекс.Метрика».
+          </span>
+                        </label>
+
+                        <button class="modal__submit" type="submit">отправить</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <div class="container">
+        <div class="links-wrapper article-links">
+            <a href="index.html">Главная</a>
+            <span>/</span>
+            <a href="blog.html">Блог</a>
+            <span class="last">/</span>
+            <a href="blog.html">Внутренний воркшоп Decard Studio: новые подходы к фотореалистичной визуализации</a>
+        </div>
+    </div>
+    <section class="article">
+        <div class="container">
+            <div class="article-wrapper">
+                <div>
+                    <span class="article-data">02 декабря 2025</span>
+                    <h2 class="article-title">Внутренний воркшоп Decard Studio: новые подходы к фотореалистичной
+                        визуализации</h2>
+                </div>
+                <img src="assets/images/article-1.png" alt="">
+                <div><h3 class="article-subtitle">О событии</h3>
+                    <p class="article-desc">В начале декабря в Decard Studio прошёл внутренний воркшоп, посвящённый
+                        развитию
+                        профессиональных навыков команды и внедрению новых подходов в архитектурную визуализацию.
+                        Мероприятие объединило 3D-художников, дизайнеров и арт-директора студии.
+                        Основной целью встречи стало повышение качества фотореалистичных рендеров и оптимизация рабочих
+                        процессов внутри команды.</p></div>
+                <div><h3 class="article-subtitle">Цели и задачи воркшопа</h3>
+                    <p class="article-desc">В рамках воркшопа команда сосредоточилась на ключевых аспектах визуализации,
+                        которые напрямую влияют на финальный результат проектов:</p>
+                    <ul class="article-list">
+                        <li>реалистичное освещение сцен;</li>
+                        <li>проработка материалов и текстур;</li>
+                        <li>детализация окружения и архитектурных элементов, проработанность форм, выразительность
+                            фактур,
+                            гармония пропорций и масштабность композиции
+                        </li>
+                        <li>оптимизация сцен для сокращения времени рендера.</li>
+                    </ul>
+                </div>
+                <img src="assets/images/article-2.png" alt="">
+                <div>
+                    <h3 class="article-subtitle">О событии</h3>
+                    <h4 class="article-text">Анализ обратной связи</h4>
+                    <p class="article-desc">Отдельное внимание было уделено анализу завершённых проектов и комментариев
+                        заказчиков. Команда разобрала типовые замечания и определила решения, которые помогают быстрее
+                        достигать ожидаемого результата.</p>
+                    <h4 class="article-text">Анализ обратной связи</h4>
+                    <p class="article-desc">Отдельное внимание было уделено анализу завершённых проектов и комментариев
+                        заказчиков. Команда разобрала типовые замечания и определила решения, которые помогают быстрее
+                        достигать ожидаемого результата.</p></div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="container">
+        <img src="assets/images/header-logo.svg" alt="">
+        <div class="footer-wrapper">
+            <ul class="footer-list">
+                <li><a href="">RUTUBE</a></li>
+                <li><a href="">BEHANCE</a></li>
+                <li><a href="">YOUTUBE</a></li>
+                <li><a href="">ВК</a></li>
+            </ul>
+            <a class="footer-politics" href="">Политика конфиденциальности</a></div>
+    </div>
+</footer>
+<script src="modal.js"></script>
+</body>
+</html>
