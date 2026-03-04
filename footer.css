@@ -1,0 +1,41 @@
+.footer {
+    padding: 10px 0;
+}
+
+.footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 392px;
+}
+
+.footer-politics {
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: right;
+    color: var(--color-main-white);
+}
+
+.footer-list {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+}
+
+.footer-list a {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--color-main-white);
+}
+
+@media screen and (max-width: 1920px) {
+    .footer-wrapper {
+        gap: 93px;
+    }
+}
