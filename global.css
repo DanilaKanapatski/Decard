@@ -44,21 +44,21 @@ html {
 
 @font-face {
     font-family: 'Involve';
-    src: url('assets/fonts/ttf/Involve-Regular.ttf') format('truetype');
+    src: url('assets/fonts/Involve-Regular.woff2') format('woff2');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Involve';
-    src: url('assets/fonts/ttf/Involve-Medium.ttf') format('truetype');
+    src: url('assets/fonts/Involve-Medium.woff2') format('woff2');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Involve';
-    src: url('assets/fonts/ttf/Involve-SemiBold.ttf') format('truetype');
+    src: url('assets/fonts/Involve-SemiBold.woff2') format('woff2');
     font-weight: 600;
     font-style: normal;
 }
