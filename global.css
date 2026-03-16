@@ -134,7 +134,7 @@ body {
     color: var(--color-main-white);
     padding: 32px 0 24px 32px;
     display: grid;
-    gap: 18px;
+    gap: 24px;
 }
 
 .cookie__text{
@@ -146,7 +146,6 @@ body {
 }
 
 .cookie__actions{
-    margin-top: 24px;
     display: flex;
     gap: 16px;
 }
@@ -172,6 +171,9 @@ body {
 }
 
 .cookie__close{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     top: 20px;
     right: 20px;
@@ -180,7 +182,7 @@ body {
     cursor: pointer;
 }
 
-@media screen and (max-width: 1920px) {
+@media screen and (max-width: 1919px) {
     .container {
         max-width: 1376px;
     }
@@ -208,5 +210,86 @@ body {
     .title {
         margin-top: 19px;
         font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 1375px) {
+    .container {
+        max-width: 728px;
+    }
+
+    .links-wrapper {
+        display: none;
+    }
+
+    .title {
+        margin-top: 32px;
+        font-size: 40px;
+    }
+
+    .cookie{
+        width: 728px;
+    }
+
+    .cookie__content{
+        padding: 32px;
+    }
+
+    .cookie__text{
+        font-size: 14px;
+        max-width: 569px;
+    }
+
+}
+
+@media screen and (max-width: 727px) {
+    .container {
+        margin: 0 auto;
+        max-width: none;
+        padding: 0 20px;
+    }
+
+    .links-wrapper {
+        display: none;
+    }
+
+    .title {
+        margin-top: 32px;
+        font-size: 24px;
+    }
+
+    .cookie{
+        position: fixed;
+        left: 20px;
+        bottom: 20px;
+        max-width: 335px;
+    }
+
+    .cookie__content{
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .cookie__text{
+        font-size: 14px;
+        max-width: 232px;
+    }
+
+    .cookie__actions{
+        gap: 20px;
+    }
+
+    .cookie__btn{
+        width: 138px;
+    }
+
+    .cookie__close{
+        right: 24px;
+        width: 32px;
+        height: 32px;
+    }
+
+    .cookie__close{
+        width: 15px;
     }
 }

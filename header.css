@@ -87,6 +87,9 @@
 }
 
 .modal__close{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position:absolute;
     top:20px;
     right:32px;
@@ -135,6 +138,9 @@
     color: var(--color-main-white);
 }
 .modal__field input::placeholder{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
     color: var(--color-text-disableinput);
 }
 
@@ -205,6 +211,10 @@
         font-size: 18px;
     }
 
+    .modal__field input::placeholder{
+        font-size: 18px;
+    }
+
     .modal__agree{
         margin-top: 12px;
         gap:8px;
@@ -213,5 +223,196 @@
 
     .modal__submit{
         margin-top:12px;
+    }
+}
+
+@media screen and (max-width: 1375px) {
+
+    .header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-wrapper {
+        gap: 20px;
+    }
+
+    .header-list {
+        display: none;
+    }
+
+    .header-btn {
+        margin-right: -20px;
+    }
+
+    .modal__dialog{
+        width:100%;
+        height:100vh;
+        background: var(--color-main-decard);
+        overflow:hidden;
+    }
+
+    .modal__close{
+        top:20px;
+        right:20px;
+        width:64px;
+        height:64px;
+    }
+
+    .modal__content{
+        padding:32px 20px 20px 20px;
+        height:100%;
+        gap:16px;
+    }
+
+    .modal__kicker{
+        padding-left: 12px;
+        font-size: 14px;
+    }
+
+    .modal__title{
+        padding-left: 12px;
+        max-width: none;
+        width: 81%;
+        font-size: 44px;
+    }
+
+    .modal__form{
+        margin-top:auto;
+        gap:12px;
+    }
+
+    .modal__field input{
+        width:100%;
+        padding:26px 0 12px 0;
+        font-size: 18px;
+    }
+
+    .modal__agree{
+        margin-top:12px;
+        gap:8px;
+        font-size: 12px;
+    }
+
+    .modal__submit{
+        margin-top:12px;
+    }
+}
+
+@media screen and (max-width: 727px) {
+
+    .header {
+        display: none;
+    }
+
+    .header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .header-wrapper {
+        display: flex;
+        gap: 24px;
+        align-items: center;
+    }
+
+    .header-wrapper a {
+        font-weight: 500;
+        font-size: 14px;
+        text-align: right;
+        color: var(--color-main-white);
+    }
+
+    .header-separator {
+        background: var(--color-line-border);
+        width: 1px;
+        height: 50px;
+    }
+
+    .header-list {
+        display: flex;
+        gap: 24px;
+        align-items: center;
+    }
+
+    .header-list a {
+        font-weight: 500;
+        font-size: 14px;
+        color: var(--color-main-white);
+    }
+
+    .header-btn {
+        margin-right: -32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 15px 0;
+        width: 209px;
+        height: 50px;
+        font-weight: 600;
+        font-size: 14px;
+        text-transform: uppercase;
+        text-align: center;
+        color: var(--color-main-white);
+        background: var(--color-main-decard);
+    }
+
+    .modal__dialog{
+        width:100%;
+        height:100vh;
+    }
+
+    .modal__close{
+        top:20px;
+        right:20px;
+        width:48px;
+        height:48px;
+    }
+
+    .modal__content{
+        padding:68px 20px 20px 20px;
+        gap:16px;
+    }
+
+    .modal__kicker{
+        padding-left: 0;
+        font-size: 14px;
+    }
+
+    .modal__title{
+        padding-left: 0;
+        max-width: none;
+        width: 100%;
+        font-size: 28px;
+        line-height: 110%;
+    }
+
+    .modal__form{
+        gap:12px;
+    }
+
+    .modal__field input{
+        padding:26px 0 12px 0;
+        font-size: 18px;
+    }
+
+    .modal__field input::placeholder{
+        font-size: 18px;
+    }
+
+    .modal__agree{
+        margin-top:12px;
+        gap:8px;
+        font-size: 12px;
+        line-height: 100%;
+    }
+
+    .modal__submit{
+        margin-top:12px;
+        font-size: 14px;
+        width: 209px;
+        height: 50px;
     }
 }

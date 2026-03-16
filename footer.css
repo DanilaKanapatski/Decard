@@ -11,7 +11,7 @@
 .footer-wrapper {
     display: flex;
     align-items: center;
-    gap: 392px;
+    gap: 433px;
 }
 
 .footer-politics {
@@ -36,6 +36,17 @@
 
 @media screen and (max-width: 1920px) {
     .footer-wrapper {
-        gap: 93px;
+        gap: 194px;
     }
+}
+
+@media screen and (max-width: 1375px) {
+
+    .footer-list {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 727px) {
+
 }
