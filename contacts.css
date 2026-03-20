@@ -384,7 +384,7 @@
     .form-wrapper {
         margin-top: 16px;
         display: flex;
-        gap: 24px;
+        gap: 64px;
         flex-direction: column;
         justify-content: space-between;
     }

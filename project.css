@@ -138,10 +138,10 @@
         position: relative;
     }
 
-    .project-next__wrapper img {
-        height: 100vh;
-        object-fit: cover;
-    }
+    /*.project-next__wrapper img {*/
+    /*    height: 100vh;*/
+    /*    object-fit: cover;*/
+    /*}*/
 
     .project-next__wrapper p {
         font-size: 36px;
@@ -187,10 +187,10 @@
         position: relative;
     }
 
-    .project-next__wrapper img {
-        height: 100vh;
-        object-fit: cover;
-    }
+    /*.project-next__wrapper img {*/
+    /*    height: 100vh;*/
+    /*    object-fit: cover;*/
+    /*}*/
 
     .project-next__wrapper p {
         font-size: 24px;
